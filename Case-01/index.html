@@ -37,6 +37,39 @@
             bottom: 0;
         }
 
+        body>div{
+            /*border: 2px solid white;*/
+            width: 150px;
+            height: 150px;
+            position: absolute;
+            z-index: 100;
+        }
+
+        body>div:nth-child(5){
+            background: white;
+            border-radius: 0px 0px 150px 0px;
+            left: 0;
+            top: 0;
+        }
+        body>div:nth-child(6){
+            background: black;
+            border-radius: 0px 0px 0px 150px;
+            right: 0;
+            top: 0;
+        }
+        body>div:nth-child(7){
+            background: black;
+            border-radius: 0px 150px 0px 0px;
+            left: 0;
+            bottom: 0;
+        }
+        body>div:nth-child(8){
+            background: white;
+            border-radius: 150px 0px 0px 0px;
+            right: 0;
+            bottom: 0;
+        }
+
     </style>
 </head>
 <body>
@@ -65,6 +98,12 @@
         <div></div>
     </div>
 </section>
+
+<!--top/left/bottom/right circles div-->
+<div></div>
+<div></div>
+<div></div>
+<div></div>
 
 </body>
 </html>
