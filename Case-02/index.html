@@ -9,26 +9,39 @@
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@300&display=swap" rel="stylesheet">
 
     <style>
+
+        /*header start*/
         header {
-            border: 1px solid red;
             position: relative;
         }
 
         header>img{
+            position: relative;
             width: 35px;
+            left: 100px;
+            top: 22px;
         }
 
         header>ul{
             position: absolute;
-            right: 30px;
+            right: 100px;
             bottom: 0;
             list-style: none;
             font-family: 'Roboto', sans-serif;
+            top: 18px;
         }
 
         header>ul>li{
             display:inline-block;
+            padding: 0 14px 0 14px;
         }
+
+        header>ul>li:hover{
+            cursor: pointer;
+            font-weight: bold;
+        }
+        /*header end*/
+
     </style>
 </head>
 <body>
@@ -48,9 +61,9 @@
     <nav>
         <ul>
             <li>Home</li>
-            <li>Services</li>
+            <li>Service</li>
             <li>Contact</li>
-            <li>About us</li>
+            <li>About Us</li>
         </ul>
     </nav>
 
