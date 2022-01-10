@@ -6,20 +6,22 @@
     <link rel="stylesheet" href="../Case-01/assets/css%20normalize/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Pacifico&family=Poppins:wght@600;900&family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/fonts/css/all.css">
 
     <style>
 
         /*header start*/
         header {
             position: relative;
+            background-color: #EEEEEE;
         }
 
         header>img{
             position: relative;
-            width: 35px;
-            left: 100px;
-            top: 22px;
+            width: 100px;
+            left: 60px;
+            top: 2px;
         }
 
         header>ul{
@@ -28,7 +30,8 @@
             bottom: 0;
             list-style: none;
             font-family: 'Roboto', sans-serif;
-            top: 18px;
+            top: 10px;
+            font-weight: bold;
         }
 
         header>ul>li{
@@ -38,16 +41,105 @@
 
         header>ul>li:hover{
             cursor: pointer;
-            font-weight: bold;
-        }
+         }
         /*header end*/
+
+        /*main start*/
+        main{
+            position: relative;
+        }
+
+        main>nav{
+            width: 220px;
+            background: #EEEEEE;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            color: white;
+        }
+
+        main>nav>ul{
+            list-style: none;
+            font-size: 20px;
+            margin-top: 39px;
+        }
+
+        main>nav>ul>li{
+            padding-bottom: 25px;
+            font-family: Ubuntu;
+        }
+
+        main>nav>ul>li>a{
+            position: relative;
+            right: 10px;
+            text-decoration: none;
+            font-family: 'Roboto', sans-serif;
+            color: black;
+            padding-bottom: 4px;
+            font-weight: bold;
+            margin-left: 10px;
+            font-size: 16px;
+            top: 150px;
+        }
+
+        main>nav>ul>li>i{
+            position: relative;
+            top: 150px;
+            color: darkgreen;
+            margin-right: 18px;
+            font-size: 16px;
+        }
+
+        main>nav>ul>li>a:hover{
+            color: darkgreen;
+        }
+
+        main>section{
+            /*position: relative;
+            left: 220px;*/
+            margin-left: 220px;
+            padding: 10px;
+            min-height: 515px;
+        }
+
+        main>section>section{
+            height: 280px;
+            position: relative;
+        }
+
+        main>section>section>div{
+            position: absolute;
+            height: 100%;
+            width: calc(100%/3);
+        }
+
+        main>section>section>div:nth-child(1){
+            left: 0;
+            background-image: url("assets/images/plant one.jpg");
+            background-size: 300px;
+        }
+
+        main>section>section>div:nth-child(2){
+            left: calc(100%/3);
+            background-image: url("assets/images/plant three.jpg");
+            background-size: 300px;
+            border-left: 5px solid white;
+        }
+
+        main>section>section>div:nth-child(3){
+            left: calc((100%/3)*2);
+            background-image: url("assets/images/plant two.png");
+            background-size: 300px;
+            border-left: 5px solid white;
+        }
+        /*main end*/
 
     </style>
 </head>
 <body>
 
 <header>
-    <img src="assets/images/Animal%20logo%20(2).png" alt="">
+    <img src="assets/images/Plant_logo.png" alt="">
 
     <ul>
         <li>Home</li>
@@ -60,10 +152,10 @@
 <main>
     <nav>
         <ul>
-            <li>Home</li>
-            <li>Service</li>
-            <li>Contact</li>
-            <li>About Us</li>
+            <li><i class="fas fa-home"></i><a href="index4.html">Home</a></li>
+            <li><i class="fas fa-globe-americas"></i><a href="index5.html">Service</a></li>
+            <li><i class="fas fa-id-badge"></i><a href="index6.html">Contact</a></li>
+            <li><i class="fas fa-info-circle"></i><a href="index7.html">About Us</a></li>
         </ul>
     </nav>
 
