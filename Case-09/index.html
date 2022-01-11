@@ -9,7 +9,7 @@
     <style>
         body>main{
             position: absolute;
-            border: 1px solid red;
+            /*border: 1px solid red;*/
             width: 500px;
             height: 500px;
             left: 0;
@@ -17,18 +17,21 @@
             right: 0;
             bottom: 0;
             margin: auto;
+            overflow: hidden;
         }
 
         main>section{
             position: relative;
-            border: 1px solid black;
-            width: 2500px;
+            /*border: 1px solid black;*/
+            width: 2000px;
             height: 100%;
             display: flex;
+            animation-name:change;
+            animation-duration: 15s;
         }
 
         main>section>div{
-            border: 1px solid green;
+            /*border: 1px solid green;*/
             width: 100%;
         }
 
@@ -56,13 +59,7 @@
             background-position: center;
         }
 
-        section>div:nth-child(5){
-            background: url("assets/images/plate five.jpg");
-            background-size: cover;
-            background-position: center;
-        }
-
-        @keyframes slider {
+        @keyframes change {
             0%{
                 left: 0;
             }
@@ -75,9 +72,6 @@
             75%{
                 left: -300%;
             }
-            100%{
-                left: -400px;
-            }
         }
 
     </style>
@@ -86,7 +80,6 @@
 
 <main>
     <section>
-        <div></div>
         <div></div>
         <div></div>
         <div></div>
