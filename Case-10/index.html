@@ -8,7 +8,7 @@
 
     <style>
         main{
-            background-image: url("assets/images/sky.jpg");
+            background-image: url("assets/images/night.jpg");
             background-position: center;
             background-size: cover;
             height: 100vh;
@@ -16,11 +16,11 @@
 
         #city{
             position: absolute;
-            border: 1px solid red;
+           /* border: 1px solid red;*/
             height: 40vh;
             left: 0;
             right: 0;
-            top: 0;
+            top: 190px;
             bottom: 0;
             margin: auto;
             overflow: hidden;
@@ -90,6 +90,28 @@
             margin: auto;
         }
 
+        #wheel1{
+            position: absolute;
+            background-image: url("assets/images/wheel.png");
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 58px;
+            height: 80px;
+            top: 125px;
+            left: 33px;
+        }
+
+        #wheel2{
+            position: absolute;
+            background-image: url("assets/images/wheel.png");
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 58px;
+            height: 80px;
+            top: 125px;
+            left: 245px;
+        }
+
     </style>
 </head>
 <body>
@@ -110,8 +132,8 @@
     </div>
     <div id="car_model">
         <div id="car"></div>
-        <div id="tyre1"></div>
-        <div id="tyre2"></div>
+        <div id="wheel1"></div>
+        <div id="wheel2"></div>
     </div>
 </main>
 
