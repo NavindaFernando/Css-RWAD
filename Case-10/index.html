@@ -25,6 +25,47 @@
             margin: auto;
             overflow: hidden;
         }
+
+        #city>section{
+            /*border: 1px solid green;*/
+            position: relative;
+            width: 300%;
+            height: 100%;
+            display: flex;
+        }
+
+        #city>section>div{
+            width: 100%;
+            background-image: url("assets/images/city.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        #road{
+            /*border: 1px solid green;*/
+            position: absolute;
+            height: 16vh;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        #road>section{
+            width: 700%;
+            height: 100%;
+            display: flex;
+            position: relative;
+        }
+
+        #road>section>div{
+            background-image: url("assets/images/road.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+        }
+
     </style>
 </head>
 <body>
@@ -36,15 +77,17 @@
             <div></div>
         </section>
     </div>
+    <div id="road">
         <section>
             <div></div>
             <div></div>
             <div></div>
         </section>
     </div>
-            <div></div>
-            <div></div>
-            <div></div>
+    <div id="car_model">
+        <div id="car"></div>
+        <div id="tyre1"></div>
+        <div id="tyre2"></div>
     </div>
 </main>
 
