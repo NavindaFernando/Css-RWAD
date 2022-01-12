@@ -32,6 +32,9 @@
             width: 300%;
             height: 100%;
             display: flex;
+            animation-name: cities;
+            animation-duration: 20s;
+            animation-iteration-count: infinite;
         }
 
         #city>section>div{
@@ -110,6 +113,17 @@
             height: 80px;
             top: 125px;
             left: 245px;
+        }
+
+        @keyframes cities{
+            0%{
+                left: 0;
+
+            }
+
+            100%{
+                left: -200%;
+            }
         }
 
     </style>
