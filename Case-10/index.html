@@ -60,7 +60,9 @@
             height: 100%;
             display: flex;
             position: relative;
-
+            animation-name: road;
+            animation-duration: 20s;
+            animation-iteration-count: infinite;
         }
 
         #road>section>div{
@@ -116,6 +118,17 @@
         }
 
         @keyframes cities{
+            0%{
+                left: 0;
+
+            }
+
+            100%{
+                left: -200%;
+            }
+        }
+
+        @keyframes road{
             0%{
                 left: 0;
 
