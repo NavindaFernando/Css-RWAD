@@ -86,7 +86,7 @@
             position: absolute;
             width: 500px;
             height: 200px;
-            background-image: url("assets/images/car.png");
+            background-image: url("assets/images/bmw.png");
             background-size: contain;
             background-repeat: no-repeat;
             left: 0;
@@ -100,10 +100,13 @@
             background-image: url("assets/images/wheel.png");
             background-size: contain;
             background-repeat: no-repeat;
-            width: 58px;
-            height: 80px;
-            top: 125px;
-            left: 33px;
+            width: 50px;
+            height: 50px;
+            top: 118px;
+            left: 79px;
+            animation-name: wheel;
+            animation-duration: 20s;
+            animation-iteration-count: infinite;
         }
 
         #wheel2{
@@ -111,10 +114,13 @@
             background-image: url("assets/images/wheel.png");
             background-size: contain;
             background-repeat: no-repeat;
-            width: 58px;
-            height: 80px;
-            top: 125px;
-            left: 245px;
+            width: 50px;
+            height: 50px;
+            top: 118px;
+            left: 295px;
+            animation-name: wheel;
+            animation-duration: 20s;
+            animation-iteration-count: infinite;
         }
 
         @keyframes cities{
@@ -136,6 +142,17 @@
 
             100%{
                 left: -200%;
+            }
+        }
+
+        @keyframes wheel{
+            0%{
+                transform: rotate(0deg);
+
+            }
+
+            100%{
+                transform: rotate(3600deg);
             }
         }
 
