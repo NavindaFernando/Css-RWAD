@@ -33,3 +33,17 @@ https://user-images.githubusercontent.com/86073690/149185982-9214658e-6462-4867-
 <h6 align="center">
 case 05
 </h6>
+
+https://user-images.githubusercontent.com/86073690/149188878-b8a85b80-2620-43bb-98ad-4e7219767968.mp4
+
+<h6 align="center">
+case 06
+</h6>
+
+https://user-images.githubusercontent.com/86073690/149193290-2e1dd8a1-cbc5-45f0-9ba1-62b5fd1986fb.mp4
+
+<h6 align="center">
+case 07
+</h6>
+
+
