@@ -10,4 +10,8 @@ case templates in rwad
 case 01
 </h5>
 
-![Screenshot (386)](https://user-images.githubusercontent.com/86073690/149175307-da1f1c61-2fbb-4cf0-bccc-c61aaa6643d5.png)
+![case 01](https://user-images.githubusercontent.com/86073690/149175892-c358d5a0-40b5-466b-8849-8a1ca1561829.png)
+
+<h5 align="center">
+case 02
+</h5>
