@@ -15,3 +15,9 @@ case 01
 <h5 align="center">
 case 02
 </h5>
+
+![case 02](https://user-images.githubusercontent.com/86073690/149176497-d0066c98-9d30-43e3-bfb1-bd3e13aaaade.png)
+
+<h5 align="center">
+case 03
+</h5>
