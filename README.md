@@ -85,3 +85,11 @@ case 10
 https://user-images.githubusercontent.com/86073690/149276010-cc173592-09c6-4c57-bbef-52c6b8876a20.mp4
 
 ***
+
+<h6 align="center">
+dev environment
+</h6>
+
+<div align="center">
+  <img height="20" src = "https://img.shields.io/badge/Intellij idea-white.svg?">
+</div>
