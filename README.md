@@ -3,7 +3,7 @@ CSS RWAD
 </h3>
 
 <h4 align="center">
-case templates in rwad
+css cases in rwad
 </h4>
 
 <h5 align="center">
