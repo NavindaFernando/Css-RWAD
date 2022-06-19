@@ -87,7 +87,7 @@ https://user-images.githubusercontent.com/86073690/149276010-cc173592-09c6-4c57-
 ***
 
 <h6 align="center">
-dev environment
+dev environment :microscope:
 </h6>
 
 <div align="center">
