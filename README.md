@@ -1,5 +1,5 @@
 <h3 align="center">
-CSS RWAD
+CSS RWAD :palm_tree:
 </h3>
 
 <h4 align="center">
